@@ -4,6 +4,7 @@ import Login from './Jogin'
 import JobCard from './JobCard'
 import Tasks from './Tasks'
 import TaskCard from './TaskCard'
+import Keyboard from './Keyboard'
 
 function Projects() {
   return (
@@ -202,6 +203,7 @@ function Projects() {
         <JobCard />
         <Tasks />
         <TaskCard />
+        <Keyboard />
       </div>
     </div>
   )
