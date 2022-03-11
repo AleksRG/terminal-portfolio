@@ -31,14 +31,17 @@ function Keyboard() {
               </button>
             </div>
             <div className="flex text-xs">
+              <div className="w-8"></div>
               <Button symbol="F1" />
               <Button symbol="F2" />
               <Button symbol="F3" />
               <Button symbol="F4" />
+              <div className="w-5"></div>
               <Button symbol="F5" />
               <Button symbol="F6" />
               <Button symbol="F7" />
               <Button symbol="F8" />
+              <div className="w-5"></div>
               <Button symbol="F9" />
               <Button symbol="F10" />
               <Button symbol="F11" />
@@ -103,7 +106,7 @@ function Keyboard() {
               <Button symbol="-" />
               <Button symbol="+" />
             </div>
-            <div className="mb-2 w-24 px-1">
+            <div className="mb-2 w-20 px-1">
               <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75 focus:outline-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +147,7 @@ function Keyboard() {
           </div>
 
           <div className="-mx-1 flex">
-            <div className="mb-2 w-16 px-1">
+            <div className="mb-2 w-20 px-1">
               <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75 focus:outline-none">
                 TAB
               </button>
@@ -162,12 +165,9 @@ function Keyboard() {
               <Button symbol="P" />
               <Button symbol="[" />
               <Button symbol="]" />
+              <Button symbol="\" />
             </div>
-            <div className="mb-2 w-20 px-1">
-              <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75 focus:outline-none">
-                ENTER
-              </button>
-            </div>
+
             <div className="flex pl-8 text-xs">
               <Button symbol="DEL" />
               <Button symbol="END" />
@@ -192,7 +192,7 @@ function Keyboard() {
             </div>
           </div>
           <div className="-mx-1 flex">
-            <div className="mb-2 w-20 px-1">
+            <div className="mb-2 w-24 px-1">
               <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75 focus:outline-none">
                 CAPS
               </button>
@@ -209,15 +209,21 @@ function Keyboard() {
               <Button symbol="L" />
               <Button symbol=";" />
               <Button symbol="'" />
-              <Button symbol="\" />
+              {/* <Button symbol="\" /> */}
             </div>
-            <div className="mb-2 w-12 px-1">
+
+            <div className="mb-2 w-20 px-1">
+              <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75 focus:outline-none">
+                ENTER
+              </button>
+            </div>
+            {/* <div className="mb-2 w-12 px-1">
               <p className="block h-10 w-full rounded border-t border-slate-800 text-center leading-none shadow-md shadow-slate-700 focus:outline-none"></p>
-            </div>
+            </div> */}
             <p className="flex w-44 pl-8"></p>
           </div>
           <div className="-mx-1 flex">
-            <div className="mb-2 w-24 px-1">
+            <div className="mb-2 w-28 px-1">
               <button className="block h-10 w-full rounded border-t border-slate-800 text-center text-xs leading-none shadow-md shadow-slate-700 hover:bg-gray-900/75  focus:outline-none">
                 SHIFT
               </button>
