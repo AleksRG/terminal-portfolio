@@ -98,7 +98,7 @@ function AboutMe() {
             <text className="text-center text-white/50">
               {' '}
               <a className="">
-                * Skils: <br />
+                * Skills: <br />
               </a>
               <a className="flex items-center space-x-2 ">
                 <SiJavascript className="text-yellow-500" />{' '}
