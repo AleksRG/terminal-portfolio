@@ -5,7 +5,7 @@ function Hello() {
   return (
     <div className="relative m-auto flex flex-1 flex-col items-center justify-center">
       <Typist>
-        <a className="text-xl text-slate-600">
+        <span className="text-xl text-slate-600">
           <a className="text-2xl">{'>'}</a>{' '}
           <a className="text-sky-700"> Location:</a> Sofia, Bulgaria
           <br />
@@ -16,7 +16,7 @@ function Hello() {
           <a className="text-2xl">{'>'}</a>{' '}
           <a className="text-sky-700"> Phone: </a>
           <a className="text-md">+359 895 629 829</a>
-        </a>
+        </span>
       </Typist>
     </div>
   )
