@@ -12,26 +12,25 @@ import {
 
 function AboutMe() {
   return (
-    <div className="h-full w-full items-center justify-around overflow-y-scroll pl-3 text-lg  scrollbar-hide md:flex md:flex-row">
+    <div className="h-full w-full items-center justify-around overflow-y-scroll pl-3 text-lg scrollbar-hide md:flex md:flex-row">
       {/* Left */}
       <div className="flex space-x-6">
-        <div className="border-r border-gray-700/50  pr-4">
-          <text className="text-white/70">
-            <a className="text-white/10">38</a> <br />
-            <a className="text-white/25">39</a> <br />
-            <a className="text-white/50">40</a> <br />
-            41 <br />
-            42 <br />
-            43 <br />
-            44 <br />
-            45 <br />
-            46 <br />
-            47 <br />
-            48 <br />
-            <a className="md:text-white/50"> 50 </a> <br />
-            <a className="md:text-white/25"> 51 </a> <br />
-            <a className="md:text-white/10"> 52 </a>
-            <br />
+        <div className="border-r border-gray-700/50 pr-4">
+          <text className="cursor-default text-white/70">
+            <p className="text-white/10">38</p>
+            <p className="text-white/25">39</p>
+            <p className="text-white/50">40</p>
+            <p>41</p>
+            <p>42</p>
+            <p>43</p>
+            <p>44</p>
+            <p>45</p>
+            <p>46</p>
+            <p>47</p>
+            <p>48</p>
+            <p className="md:text-white/50"> 50 </p>
+            <p className="md:text-white/25"> 51 </p>
+            <p className="md:text-white/10"> 52 </p>
           </text>
         </div>
         <div className="my-auto pl-2">
@@ -74,22 +73,20 @@ function AboutMe() {
       </div>
       {/* Right */}
       <div className="flex space-x-6">
-        <div className="border-r border-gray-700/50  pr-4">
-          <text className="text-white/70">
-            <a className="md:text-white/10">53</a> <br />
-            <a className="md:text-white/25">54</a> <br />
-            <a className="md:text-white/50">55</a> <br />
-            56 <br />
-            57 <br />
-            58 <br />
-            59 <br />
-            60 <br />
-            <a className="text-white/50"> 61 </a> <br />
-            <a className="text-white/25"> 62 </a> <br />
-            <a className="text-white/10"> 63 </a>
-            <br />
-            <a className="text-white/5"> 64 </a>
-            <br />
+        <div className="border-r border-gray-700/50 pr-4">
+          <text className="cursor-default text-white/70">
+            <p className="md:text-white/10">53</p>
+            <p className="md:text-white/25">54</p>
+            <p className="md:text-white/50">55</p>
+            <p>56</p>
+            <p>57</p>
+            <p>58</p>
+            <p>59</p>
+            <p>60</p>
+            <p className="text-white/50"> 61 </p>
+            <p className="text-white/25"> 62 </p>
+            <p className="text-white/10"> 63 </p>
+            <p className="text-white/5"> 64 </p>
           </text>
         </div>
         <div className="my-auto pl-2">
@@ -100,7 +97,7 @@ function AboutMe() {
               <a className="">
                 * Skills: <br />
               </a>
-              <a className="flex items-center space-x-2 ">
+              <a className="flex items-center space-x-2">
                 <SiJavascript className="text-yellow-500" />{' '}
                 <p className="px-2 text-white/80">JavaScript</p>
               </a>

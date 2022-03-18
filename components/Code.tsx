@@ -4,15 +4,15 @@ import 'prism-themes/themes/prism-atom-dark.css'
 
 interface Code {
   code: string
-  langlage: string
+  language: string
 }
 
-const Code: FC<Code> = ({ code, langlage }) => {
+const Code: FC<Code> = ({ code, language }) => {
   useEffect(() => {
     Prism.highlightAll()
   }, [])
   return (
-    <pre className={`language-${langlage} max-h-[540px] scrollbar-hide`}>
+    <pre className={`language-${language} max-h-[540px] scrollbar-hide`}>
       <code className="language-js code-highlight text-sm">{code}</code>
     </pre>
   )

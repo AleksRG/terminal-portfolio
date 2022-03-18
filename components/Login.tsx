@@ -262,7 +262,7 @@ function Login() {
           </div>
         </div>
       ) : (
-        <Code code={code} langlage={'javascript'} />
+        <Code code={code} language={'javascript'} />
       )}
     </div>
   )

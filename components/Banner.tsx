@@ -4,7 +4,7 @@ import ProjectBox from './ProjectBox'
 
 function Banner() {
   return (
-    <div className="relative m-auto flex w-full flex-1 flex-col items-center justify-center overflow-y-scroll scrollbar-hide">
+    <div className="relative m-auto flex w-full flex-1 flex-col items-center justify-center  scrollbar-hide">
       <div className="mt-4 flex flex-wrap justify-around space-y-8 p-4 sm:w-full md:space-y-0 lg:space-x-20">
         <div className="mt-2 items-center">
           <div className="space-y-2 text-white/80">

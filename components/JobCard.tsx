@@ -109,7 +109,7 @@ function Profile() {
               </a>
               <div className="ml-4 flex flex-col items-start">
                 <span className="text-gray-500">Khaby Lame</span>
-                <span className="text-sm font-light text-gray-400 ">
+                <span className="text-sm font-light text-gray-400">
                   Updated 3 min ago
                 </span>
               </div>
@@ -148,7 +148,7 @@ function Profile() {
           </button>
         </div>
       ) : (
-        <Code code={code} langlage={'javascript'} />
+        <Code code={code} language={'javascript'} />
       )}
     </div>
   )

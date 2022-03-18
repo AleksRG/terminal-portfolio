@@ -505,7 +505,7 @@ function Tasks() {
           </ul>
         </div>
       ) : (
-        <Code code={code} langlage={'javascript'} />
+        <Code code={code} language={'javascript'} />
       )}
     </div>
   )

@@ -189,7 +189,7 @@ function Tasks() {
           </a>
         </div>
       ) : (
-        <Code code={code} langlage={'javascript'} />
+        <Code code={code} language={'javascript'} />
       )}
     </div>
   )
