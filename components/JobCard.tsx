@@ -9,8 +9,8 @@ function Profile() {
       <a href="#" className="relative block">
         <img
           alt="profil"
-          src="https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/198613032_101597975508387_4152049553959119774_n.jpg?stp=dst-jpg_p640x640&_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-x7GDtPo9xkAX9mS307&_nc_ht=scontent.fsof8-1.fna&oh=00_AT9FL7fCdrvX89OwCyLfLxGUPL6Hn0A3I7sZCFPQDE_62w&oe=6245EB72"
-          className="mx-auto h-10 w-10 rounded-full object-cover "
+          src="/KHABY.webp"
+          className="mx-auto h-10 w-10 rounded-full object-cover"
         />
       </a>
       <div className="ml-4 flex flex-col items-start">
@@ -103,8 +103,8 @@ function Profile() {
               <a href="#" className="relative block">
                 <img
                   alt="profil"
-                  src="https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/198613032_101597975508387_4152049553959119774_n.jpg?stp=dst-jpg_p640x640&_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-x7GDtPo9xkAX9mS307&_nc_ht=scontent.fsof8-1.fna&oh=00_AT9FL7fCdrvX89OwCyLfLxGUPL6Hn0A3I7sZCFPQDE_62w&oe=6245EB72"
-                  className="mx-auto h-10 w-10 rounded-full object-cover "
+                  src="/KHABY.webp"
+                  className="mx-auto h-10 w-10 rounded-full object-cover"
                 />
               </a>
               <div className="ml-4 flex flex-col items-start">

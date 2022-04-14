@@ -22,7 +22,7 @@ function Profil() {
     <div className="relative">
       <img
         className="absolute inset-x-0 top-0 mx-auto -mt-24 flex h-48 w-48 items-center justify-center rounded-full"
-        src="https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/198613032_101597975508387_4152049553959119774_n.jpg?stp=dst-jpg_p640x640&_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-x7GDtPo9xkAX9mS307&_nc_ht=scontent.fsof8-1.fna&oh=00_AT9FL7fCdrvX89OwCyLfLxGUPL6Hn0A3I7sZCFPQDE_62w&oe=6245EB72"
+        src="/KHABY.webp"
         alt=""
       />
     </div>
@@ -124,7 +124,7 @@ function Profil() {
             <div className="relative">
               <img
                 className="absolute inset-x-0 top-0 mx-auto -mt-24 flex h-48 w-48 items-center justify-center rounded-full"
-                src="https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/198613032_101597975508387_4152049553959119774_n.jpg?stp=dst-jpg_p640x640&_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-x7GDtPo9xkAX9mS307&_nc_ht=scontent.fsof8-1.fna&oh=00_AT9FL7fCdrvX89OwCyLfLxGUPL6Hn0A3I7sZCFPQDE_62w&oe=6245EB72"
+                src="/KHABY.webp"
                 alt=""
               />
             </div>
